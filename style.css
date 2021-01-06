@@ -4,6 +4,7 @@ body{
 /*
 font-family: 'Bebas Neue', cursive;
 */
+
 .menu{
     height: 80px;
 }
@@ -32,10 +33,13 @@ font-family: 'Bebas Neue', cursive;
 .h50{
     font-size:50px;
     font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    letter-spacing: 2px;
 }
 
 .hl{
-    color:orange;
+    color: #FF8367;
+    letter-spacing: 2px;
 }
 
 header{
@@ -43,6 +47,10 @@ header{
     background-image: url("assets/img/top-banner.png");
     height:500px;
     background-repeat: no-repeat;
+}
+.welcome{
+    width:100%;
+    height: 500px;
 }
 
 .half-width{
@@ -83,14 +91,67 @@ header{
     overflow: hidden;
     width: 100%;
     text-align: center;
-   
+    background-color: #F8F9FC;
+    padding: 30px 0;
+}
+.latest-work .myalign{
+    text-align: center;
 }
 .one-third{
     width: 30%;
     float: left;
- 
+    margin: 0 1.5%;
+    background-color: #FFFFFF;
+    height: 65%;
+    border-radius: 10px;
+    
+
+   
+}
+.one-third img{
+    margin-top: 20px;
+    width:80%;
 }
 
-.one-third img{
-    width:100%;
+.one-third p, h1{
+    margin-left: 13%;
+    text-align: justify;
 }
+
+.inquiry {
+    height:400px;
+    width:100%;
+    
+}
+
+.chat {
+    margin-top:150px;
+    margin-left: 20%;
+    width: 60%;
+    height: 180px;
+    background-image: url("assets/images/avobe-connected.png");
+    background-size:100%;
+
+}
+.chat-left{
+    height:auto;
+    width:60%;
+    margin-top: 11px;
+    float: left;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.chat-right{
+    width:40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.chat-button {
+        position: relative;
+        top: 62px;
+        right: -99px;
+    }
+
