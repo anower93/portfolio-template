@@ -35,6 +35,7 @@ font-family: 'Bebas Neue', cursive;
     font-family: 'Bebas Neue', cursive;
     color: #363958;
     letter-spacing: 2px;
+    margin:0px;
 }
 
 .hl{
@@ -119,16 +120,16 @@ header{
 }
 
 .inquiry {
-    height:400px;
+    height:300px;
     width:100%;
     
 }
 
 .chat {
     margin-top:150px;
-    margin-left: 20%;
-    width: 60%;
-    height: 180px;
+    margin-left: 25%;
+    width: 596px;
+    height: 148px;
     background-image: url("assets/images/avobe-connected.png");
     background-size:100%;
 
@@ -153,5 +154,34 @@ header{
         position: relative;
         top: 62px;
         right: -99px;
-    }
+ }
+.connected{
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+.connected .stay{
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+    font-size: 24px;
+}
+.connected>h2{
+    font-size: 40px;
+}
+
+.connected ul {
+    list-style: none;
+
+}
+.connected ul li{
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    padding-right: 15px;
+}
+
+.connected ul li img{
+    width: 20px;
+   
+}
